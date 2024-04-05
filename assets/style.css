@@ -1,0 +1,97 @@
+@font-face { font-family: Inika, Arial, sans-serif; src: url(fonts/Inika-Regular.ttf);}
+:root{
+    --header-text:Inika;
+    --black:rgba(35, 31, 32, 1);
+    --white:rgba(247, 242, 234, 1);
+    --red: rgba(187, 68, 48, 1);
+    --orange: rgba(252, 176, 126, 1);
+    --yellow: rgba(237, 235, 160, 1);
+    --teal: rgba(126, 189, 194, 1);
+}
+body {
+    float: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--orange);
+}
+p {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    align-content: center;
+}
+
+header{     
+    background-color: var(--red);
+    background: url(Vengess-empire-planet.webp), var(--red) no-repeat center;
+    position: relative;
+    justify-content:center;
+
+}
+header h1{
+    font-size: xx-large;
+    color: var(--white);
+    padding: 2%;
+    margin: 0;
+    text-align: center;
+}
+
+nav{
+    background-color: var(--red);
+    color: var(--white);
+    display:flex;
+    justify-content:space-around;
+    overflow: hidden;
+    font-size:2vw;
+    width: 100%;
+}
+nav a{
+    color: var(--white);
+
+}
+a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+a :active{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    color: var(--orange);
+}
+main{
+    float: left;
+    width: 75%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+aside{
+    float: right;
+    width: 20%;
+    height: 100%;
+    display: block;
+    background-color: var(--red);
+    text-align: center;
+    padding: 2%;
+    position: sticky;
+}
+
+article{
+    margin: auto;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 20px;
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+}
